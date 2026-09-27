@@ -1,6 +1,3 @@
-USE BikeStores;
-GO
-
 -- Task 1: Management needs a detailed sales dataset for analysis. Return one row per order item containing order_id and order_date, customer full name, store name, staff full name, product name, category name, brand name, quantity, list_price, discount, and calculated net_line_revenue. Include only completed orders (order_status = 4) and sort the result from newest order to oldest.
 SELECT
     o.order_id,
